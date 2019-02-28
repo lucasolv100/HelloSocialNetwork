@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
     <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
-    <RootNamespace>_4___HelloSocialNetwork.API</RootNamespace>
+    <RootNamespace>HelloSocialNetwork.API</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

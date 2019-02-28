@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 
-namespace _4___HelloSocialNetwork.API
+namespace HelloSocialNetwork.API
 {
     public class Program
     {

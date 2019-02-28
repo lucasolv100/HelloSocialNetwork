@@ -11,7 +11,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 
-namespace _4___HelloSocialNetwork.API
+namespace HelloSocialNetwork.API
 {
     public class Startup
     {
