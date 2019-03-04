@@ -13,21 +13,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Application", "3 - Appl
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Presentation", "5 - Presentation", "{0E2DD33E-62BB-4BE2-9054-260EEA5079DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloSocialNetwork.Domain", "HelloSocialNetwork.Domain\HelloSocialNetwork.Domain.csproj", "{3271C528-43E6-4B07-B607-0BB042E29CA2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloSocialNetwork.Domain", "HelloSocialNetwork.Domain\HelloSocialNetwork.Domain.csproj", "{3271C528-43E6-4B07-B607-0BB042E29CA2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloSocialNetwork.Tests", "HelloSocialNetwork.Tests\HelloSocialNetwork.Tests.csproj", "{C0061F02-D49C-4830-86BF-A452C22F5D69}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloSocialNetwork.Tests", "HelloSocialNetwork.Tests\HelloSocialNetwork.Tests.csproj", "{C0061F02-D49C-4830-86BF-A452C22F5D69}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloSocialNetwork.Application", "HelloSocialNetwork.Application\HelloSocialNetwork.Application.csproj", "{3FB9F7A7-F34D-44BB-A068-58391BB29119}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloSocialNetwork.Application", "HelloSocialNetwork.Application\HelloSocialNetwork.Application.csproj", "{3FB9F7A7-F34D-44BB-A068-58391BB29119}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 -API", "4 -API", "{448FB0C7-2349-4960-924E-C1423D6B9AE8}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloSocialNetwork.API", "HelloSocialNetwork.API\HelloSocialNetwork.API\HelloSocialNetwork.API.csproj", "{B433E8E1-C275-405D-A741-E771F4191663}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.1 - CrossCutting", "2.1 - CrossCutting", "{8887CA35-8E13-4BAC-AF32-B4F250C078E3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.2 - Data", "2.2 - Data", "{DF659C60-AE73-4EA2-8C76-7D905808DC2B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloSocialNetwork.Infra.Data", "HelloSocialNetwork.Infra.Data\HelloSocialNetwork.Infra.Data.csproj", "{6062DEE9-8DDF-4944-9941-1FBFA3FC6A4F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloSocialNetwork.Infra.Data", "HelloSocialNetwork.Infra.Data\HelloSocialNetwork.Infra.Data.csproj", "{6062DEE9-8DDF-4944-9941-1FBFA3FC6A4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloSocialNetwork.API", "HelloSocialNetwork.API\HelloSocialNetwork.API.csproj", "{4ACE77B2-41F0-4ACE-BCAB-D68C1F86269D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,14 +47,14 @@ Global
 		{3FB9F7A7-F34D-44BB-A068-58391BB29119}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3FB9F7A7-F34D-44BB-A068-58391BB29119}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3FB9F7A7-F34D-44BB-A068-58391BB29119}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B433E8E1-C275-405D-A741-E771F4191663}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B433E8E1-C275-405D-A741-E771F4191663}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B433E8E1-C275-405D-A741-E771F4191663}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B433E8E1-C275-405D-A741-E771F4191663}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6062DEE9-8DDF-4944-9941-1FBFA3FC6A4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6062DEE9-8DDF-4944-9941-1FBFA3FC6A4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6062DEE9-8DDF-4944-9941-1FBFA3FC6A4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6062DEE9-8DDF-4944-9941-1FBFA3FC6A4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4ACE77B2-41F0-4ACE-BCAB-D68C1F86269D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ACE77B2-41F0-4ACE-BCAB-D68C1F86269D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ACE77B2-41F0-4ACE-BCAB-D68C1F86269D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ACE77B2-41F0-4ACE-BCAB-D68C1F86269D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -63,10 +63,10 @@ Global
 		{3271C528-43E6-4B07-B607-0BB042E29CA2} = {118E7D5C-02A6-446F-B2AB-B4A44CA5576D}
 		{C0061F02-D49C-4830-86BF-A452C22F5D69} = {0E19A754-BBED-4FAA-83B2-5C84ECD4E6BE}
 		{3FB9F7A7-F34D-44BB-A068-58391BB29119} = {16E5F1DD-900B-4C67-8629-765AA3DE9218}
-		{B433E8E1-C275-405D-A741-E771F4191663} = {448FB0C7-2349-4960-924E-C1423D6B9AE8}
 		{8887CA35-8E13-4BAC-AF32-B4F250C078E3} = {89E169BD-00ED-4FC0-83A7-1D19CEA1F4B1}
 		{DF659C60-AE73-4EA2-8C76-7D905808DC2B} = {89E169BD-00ED-4FC0-83A7-1D19CEA1F4B1}
 		{6062DEE9-8DDF-4944-9941-1FBFA3FC6A4F} = {DF659C60-AE73-4EA2-8C76-7D905808DC2B}
+		{4ACE77B2-41F0-4ACE-BCAB-D68C1F86269D} = {448FB0C7-2349-4960-924E-C1423D6B9AE8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {86B56FC9-2AB5-4230-9844-EB724BD22D36}

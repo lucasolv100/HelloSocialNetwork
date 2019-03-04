@@ -13,4 +13,13 @@
     <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="2.2.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\HelloSocialNetwork.Domain\HelloSocialNetwork.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Config\" />
+    <Folder Include="Repositories\" />
+  </ItemGroup>
+
 </Project>
