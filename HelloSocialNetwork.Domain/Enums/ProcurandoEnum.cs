@@ -2,9 +2,9 @@
 {
     public enum ProcurandoEnum
     {
-        NaoEspecificado = 0,
-        Namoro = 1,
-        Amizade = 2,
-        VerNoQueDa = 3
+        NaoEspecificado = 1,
+        Namoro = 2,
+        Amizade = 3,
+        VerNoQueDa = 4
     }
 }

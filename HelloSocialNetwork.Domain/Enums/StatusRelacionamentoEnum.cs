@@ -2,9 +2,9 @@
 {
     public enum StatusRelacionamentoEnum
     {
-        NaoEspecificado = 0,
-        Solteiro = 1,
-        Casado = 2,
-        EmRelacionamentoSerio = 3
+        NaoEspecificado = 1,
+        Solteiro = 2,
+        Casado = 3,
+        EmRelacionamentoSerio = 4
     }
 }

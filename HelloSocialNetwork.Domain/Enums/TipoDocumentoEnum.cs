@@ -2,8 +2,8 @@
 {
     public enum TipoDocumentoEnum
     {
-        NaoDefinido = 0,
-        CPF = 1,
-        RG = 2
+        NaoDefinido = 1,
+        CPF = 2,
+        RG = 3
     }
 }

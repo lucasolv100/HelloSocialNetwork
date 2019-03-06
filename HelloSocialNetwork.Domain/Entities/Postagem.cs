@@ -14,5 +14,6 @@ namespace HelloSocialNetwork.Domain.Entities
         public int UsuarioId { get; set; }
         public virtual Grupo Grupo { get; set; }
         public int GrupoId { get; set; }
+        public virtual ICollection<Comentario> Comentarios { get; set; }
     }
 }

@@ -8,7 +8,9 @@ namespace HelloSocialNetwork.Domain.Entities
         public DateTime DataPublicacao { get; set; }
         public string Texto { get; set; }
         public int UsuarioId { get; set; }
-        public Usuario Usuario { get; private set; }
+        public virtual Usuario Usuario { get; private set; }
+        public int PostagemId { get; set; }
+        public virtual Postagem Postagem { get; set; }
 
         public Comentario()
         {
