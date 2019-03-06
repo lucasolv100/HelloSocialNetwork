@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using HelloSocialNetwork.Domain.Enums;
 
 namespace HelloSocialNetwork.Domain.Entities
@@ -13,5 +14,9 @@ namespace HelloSocialNetwork.Domain.Entities
         public DateTime DataNascimento { get; set; }
         public string UrlFoto { get; set; }
         public SexoEnum Sexo { get; set; }
+        
+        public virtual Identificacao Identificacao { get; set; }
+        public virtual ICollection<Postagem> Postagens { get; set; }
+
     }
 }

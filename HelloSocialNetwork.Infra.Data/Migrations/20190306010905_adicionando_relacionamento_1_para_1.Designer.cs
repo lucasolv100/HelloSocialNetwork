@@ -3,14 +3,16 @@ using System;
 using HelloSocialNetwork.Infra.Data.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace HelloSocialNetwork.Infra.Data.Migrations
 {
     [DbContext(typeof(HelloSocialNetworkContext))]
-    partial class HelloSocialNetworkContextModelSnapshot : ModelSnapshot
+    [Migration("20190306010905_adicionando_relacionamento_1_para_1")]
+    partial class adicionando_relacionamento_1_para_1
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -45,11 +47,7 @@ namespace HelloSocialNetwork.Infra.Data.Migrations
 
                     b.Property<string>("Texto");
 
-                    b.Property<int>("UsuarioId");
-
                     b.HasKey("Id");
-
-                    b.HasIndex("UsuarioId");
 
                     b.ToTable("Postagens");
                 });
@@ -104,14 +102,6 @@ namespace HelloSocialNetwork.Infra.Data.Migrations
                     b.HasOne("HelloSocialNetwork.Domain.Entities.Usuario", "Usuario")
                         .WithOne("Identificacao")
                         .HasForeignKey("HelloSocialNetwork.Domain.Entities.Identificacao", "UsuarioId")
-                        .OnDelete(DeleteBehavior.Cascade);
-                });
-
-            modelBuilder.Entity("HelloSocialNetwork.Domain.Entities.Postagem", b =>
-                {
-                    b.HasOne("HelloSocialNetwork.Domain.Entities.Usuario", "Usuario")
-                        .WithMany("Postagens")
-                        .HasForeignKey("UsuarioId")
                         .OnDelete(DeleteBehavior.Cascade);
                 });
 #pragma warning restore 612, 618

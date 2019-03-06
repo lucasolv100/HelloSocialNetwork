@@ -32,6 +32,12 @@ namespace HelloSocialNetwork.Infra.Data.Config
             builder.Property(u => u.Email)
                     .IsRequired()
                     .HasMaxLength(150);
+
+            builder.HasOne(u => u.Identificacao)
+                   .WithOne(i => i.Usuario)
+                   .HasForeignKey<Identificacao>(u => u.UsuarioId);
+
+            builder.HasMany(u => u.Postagens).WithOne(p => p.Usuario);
         }
     }
 }

@@ -688,30 +688,30 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\lucas\\.nuget\\packages\\": {},
+    "C:\\Users\\Lucas\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Estudos\\EF_Core\\HelloSocialNetwork\\HelloSocialNetwork.Tests\\HelloSocialNetwork.Tests.csproj",
+      "projectUniqueName": "L:\\Estudos\\Ef Core\\HelloSocialNetwork\\HelloSocialNetwork.Tests\\HelloSocialNetwork.Tests.csproj",
       "projectName": "HelloSocialNetwork.Tests",
-      "projectPath": "D:\\Estudos\\EF_Core\\HelloSocialNetwork\\HelloSocialNetwork.Tests\\HelloSocialNetwork.Tests.csproj",
-      "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
-      "outputPath": "D:\\Estudos\\EF_Core\\HelloSocialNetwork\\HelloSocialNetwork.Tests\\obj\\",
+      "projectPath": "L:\\Estudos\\Ef Core\\HelloSocialNetwork\\HelloSocialNetwork.Tests\\HelloSocialNetwork.Tests.csproj",
+      "packagesPath": "C:\\Users\\Lucas\\.nuget\\packages\\",
+      "outputPath": "L:\\Estudos\\Ef Core\\HelloSocialNetwork\\HelloSocialNetwork.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "L:\\Estudos\\Ef Core\\HelloSocialNetwork\\NuGet.Config",
+        "C:\\Users\\Lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

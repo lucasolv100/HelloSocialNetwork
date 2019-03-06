@@ -3,14 +3,16 @@ using System;
 using HelloSocialNetwork.Infra.Data.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace HelloSocialNetwork.Infra.Data.Migrations
 {
     [DbContext(typeof(HelloSocialNetworkContext))]
-    partial class HelloSocialNetworkContextModelSnapshot : ModelSnapshot
+    [Migration("20190306011721_adicionando_relacionamento_1_para_muitos")]
+    partial class adicionando_relacionamento_1_para_muitos
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
